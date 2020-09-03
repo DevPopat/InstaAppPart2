@@ -40,8 +40,9 @@ GIF created with [Recordit](https://recordit.co).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+One of the challenges I faced was converting all of my activities to fragments from part 1 of the app. This conversion was a convoluted process as it required me to create separate fragment activities, create the bottom navigation bar and icons for each of the options. Using fragments also changed the way to create adapters for recycler views. Like for example you need to use the function call "getContext()" rather than ".context" to get the current state of the application. It also changed the way we use "findViewById()" which also took a little getting used to. After this project, I have realized that fragments are an efficient alternative to creating separate activities. It sets apart the amateur developers from the experiences ones.  
+Nevertheless, I feel it was definitely worth the effort as it makes the more concise (fewer activities) and easier to use.
+I feel as a future goal I can definitely work towards making a more appealing design as it is an important part of the user experience. Using some Instagram related assets would give the app a more professional look.
 ## Open-source libraries used
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
